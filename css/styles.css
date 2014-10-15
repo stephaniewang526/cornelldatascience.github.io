@@ -58,9 +58,24 @@ a.list-group-item.active,[class*='-info'] {
 	background-color: #168ccc;
     color:#fff;
 }
-  
+.title {
+    margin-top:-50px;
+    margin-bottom:25px;
+}
+.titleimage {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
 #section1 {
-	background-color: #168ccc;
+    background-color: #168ccc;
+/*    background-opacity:0.1;
+    background: url('img/cover1.jpg') no-repeat left top 80%;
+    background-size: 100%;*/
     color:#dedeff;
 }
   
