@@ -44,7 +44,44 @@
       <br>
       <div class="col-sm-12">
           <div class="row">
-            <div class="col-sm-6 col-sm-offset-3 text-center"><h3>Proposal</h3><p>Input Proposal Here</p><i class="fa fa-cog fa-5x"></i></div>
+            <div class="col-sm-8 col-sm-offset-2"><h3></h3><p>
+<br>
+Reddit is a social news website where users can submit content and have other users
+comment, gild and vote (up or down) on their submissions. Since 2005, Reddit has grown into a
+huge community of very active users. With a very big and ever growing number of users and
+posts, discovering new and interesting content can be very challenging. This is because the only
+method of ‘ranking’ posts is not personalized and is based purely upon the number of up and
+down votes a post has received. In 2010, Reddit gave its users the option to make their votes
+publicly available and later released some of that voting data for research purposes. We propose
+to use this data along with the Reddit API to generate recommendations for users based on their
+voting history.<br><br>
+Over the course of the semester, we propose to develop a recommendation engine to generate
+a set of post recommendations for users of the social news website Reddit given their prior
+voting history, previous posts, and comments. We plan to generate more comprehensive data
+from the links, posts, and users mentioned in the data dump by using the Reddit API. <br>
+<br>We will be attempting three variations of clustering.<br><br>
+1. Clustering items simply based on similarities in their voting record<br>
+a. using both up and down votes<br>
+b. using only up votes<br>
+2. Clustering users based on attributes (sub­reddit, keywords, author etc) of the posts they
+had voted on.<br>
+a. using both up and down votes<br>
+b. using only up votes<br>
+3. Clustering posts based on keywords appearing in the title (and possibly the rest of the
+post as well)<br><br>
+As we can see, the above variations are a combination of both collaborative filtering methods
+and content­based filtering methods. We will be recording our results in all the above cases and
+then comparing and potentially improving our final outcome using the various insights from each
+of the above methods.
+<br><br>
+● Create a recommender engine for Reddit to recommend articles and improve on
+Reddit’s built­in sub­reddit recommender.<br>
+● The main objective of the project is to identify and build the best solution for
+recommending individual reddit posts, across multiple sub­reddits, to a specific user<br>
+● Upon early completion of the project, we plan to deploy the recommendation
+engine on real­time data and build a simple front­end to test the system in a
+real­world scenario.
+</p><i class="fa fa-cog fa-5x"></i></div>
           </div>
       </div>
     </div>
