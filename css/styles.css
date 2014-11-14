@@ -166,3 +166,7 @@ small.text-muted {
   background-color: #103351;
   color:#ffffff;
 }
+
+.col-sm-9{
+  overflow: none;
+}
